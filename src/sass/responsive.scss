@@ -1,0 +1,306 @@
+/* ===============================1200-960=========================== */
+@media screen and (max-width: 1200px) and (min-width: 744px){
+	.grey{
+		height: 800px;
+	}
+
+
+
+/* ==========main-1============ */
+	.main-1{
+		&__logo{
+			img{
+				width: 72%;
+			}
+		}
+
+		&__stickers{
+			font-size: 2.9em;
+		}
+
+		&__item{
+			font-size: 1.3em;
+		}
+	}
+
+	.main-2{
+		position: static;
+		padding-top: 20px;
+	}
+/* ==========main-5============ */
+
+	.main-5{
+		&__sketch{
+			margin-left: 0;
+			img{
+				width: 100%;
+			}
+		}
+
+		&__title{
+			img{
+				width: 100%;
+			}
+		}
+		&__cont{
+		margin-top: -80px;
+		padding-right: 30px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+		}
+
+		&__text{
+			padding-left: 0;
+   		padding-top: 10px;
+		}
+	}
+
+/* ==========main-6============ */
+	.main-6{
+		&__paper2{
+			width: 64%;
+    	top: -181px;
+    	left: 91px;
+    	img{
+    		width: 100%;
+    	}
+		}
+
+		&__paper1{
+			width: 64%;
+			img{
+    		width: 100%;
+    	}
+		}
+
+		.pensil{
+			top: 74px;
+		}
+
+		.eraser{
+			top: 74px;
+		}
+
+		.smartphone{
+			left: -139px;
+		}
+
+		.pen{
+			right: 0;
+		}
+
+		&__logo{
+			margin-left: 10px;
+			img{
+				width: 550px;
+			}
+		}
+
+		&__items{
+			height: 440px;
+		}
+	}
+/* ==========main-7============ */
+	.main-7{
+		&__paper3{
+			width: 58%;
+			right: -10px;
+		}
+
+		&__paper4{
+			width: 58%;
+		}
+		&__text{
+			width: 380px;
+		}
+
+		&__pensils{
+			right: -30px;
+		}
+	}
+
+
+/* ==========main-8============ */
+
+	.main-8{
+
+		.number{
+			margin-left: 0;
+		}
+
+		&__cont{
+			right: 107px;
+			width: 300px;
+		}
+
+		&__pict{
+			margin-left: -10px;
+			img{
+				width: 100%;
+			}
+		}
+
+		&__pict2{
+			right: -10px;
+		}
+
+		&__det{
+			padding-right: 10px;
+		}
+	}
+
+/* ==========main-9============ */
+
+	.main-9{
+
+		&__cont{
+			margin-right: 170px;
+		}
+		&__big{
+			margin-left: 0;
+			img{
+				width: 100%;
+			}
+		}
+		&__stickers{
+			margin-top: 10px;
+		}
+		&__sticker{
+			img{
+				width: 100%;
+			}
+
+			&--green{
+				display: none;
+			}
+		}
+	}
+
+/* ==========main-10=========== */
+
+	.main-10{
+		
+		&__left{
+			padding-left: 15px;
+			-webkit-box-sizing: border-box;
+			-moz-box-sizing: border-box;
+			box-sizing: border-box;
+			width: 45%;
+		}
+
+		&__right{
+			width: 55%;
+		}
+
+		&__sticker{
+			width: 48%;
+			padding-left: 10px;
+			img{
+				width: 100%;
+			}
+
+			&--right{
+				width: 48%;
+				padding-right: 10px;
+				img{
+					width: 100%;
+				}
+			}
+		}
+	}
+
+/* ==========main-11=========== */
+
+	.main-11{
+
+		&__left{
+			img{
+				width: 100%;
+			}
+		}
+	}
+
+/* ==========main-12=========== */
+
+	.main-12{
+		&__images{
+			padding-right: 10px;
+		}
+		&__img{
+			padding: 0 5px;
+			img{
+				width: 100%;
+			}
+		}
+	}
+}
+
+
+/* =================main-3================ */
+
+@media screen and (max-width: 1200px) and (min-width: 744px){
+
+	.line{
+		width: 175px;
+	}
+
+
+
+	.main-3{
+
+		.container{
+			max-width: 1024px;
+		}
+
+		&__card{
+			&--white1{
+				margin-left: -20px;
+			}
+			&--pink{
+				margin-left: -20px;
+			}
+		}
+
+		&__row{
+			&--center{
+				padding-right: 190px;
+			}
+		}
+
+		&__people{
+			position: relative;
+			left: 9px;
+			margin-top: -25px;
+
+			.line-down{
+				bottom: -219px;
+				height: 220px;
+			}
+
+			.line-right{
+				width: 151px;
+				right: -151px;
+
+				&__up{
+					top: -138px;
+					height: 138px;
+				}
+			}
+		}
+		&__solution{
+			.line{
+				left: -164px;
+			}
+		}
+
+		&__needs{
+			.line{
+				right: -164px;
+			}
+		}
+	}
+}
+
+@import "responsive744";
+@import "responsive320";
